@@ -19,3 +19,19 @@ Book a hall:
 POST/booking 
 POST - http://localhost:3000/booking
 ```
+
+```
+View all rooms with booked data:
+GET/Viewbooking
+GET-http://localhost:3000
+```
+```
+View customers with booking:
+GET/customers
+GET-http://localhost:3000/customers
+```
+```
+No of times Customer Booked:
+GET/customers/:customerName
+GET-http://localhost:3000/customers/:customerName
+```
